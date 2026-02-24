@@ -1,0 +1,15 @@
+[project]
+name = "mirror-meta-portfolio"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ssghost", email = "ssprof0@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
