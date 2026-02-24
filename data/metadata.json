@@ -1,0 +1,72 @@
+[
+  {
+    "project": "EVM Verification & Optimization Framework",
+    "category": "Technical Research",
+    "tech_stack": ["Solidity", "Hardhat", "viaIR", "Yul"],
+    "key_achievement": "Published on HackerNoon. Achieved 100% deterministic verification for complex DeFi protocols using viaIR optimization pipelines.",
+    "challenge": "Solving structural bytecode mismatches and metadata hash discrepancies in production-grade compilers."
+  },
+  {
+    "project": "Benchmark of Four JIT Backends for High-Performance Computing",
+    "category": "Technical Research",
+    "tech_stack": ["Python", "Numba", "JAX", "TensorFlow", "Triton"],
+    "key_achievement": "Published on DEV. Conducted comparative analysis of JIT compilation efficiencies using Monte Carlo Pi Approximation; identified critical performance-accuracy trade-off points.",
+    "challenge": "Optimizing data 'compression' (vectorization) procedures across heterogeneous JIT implementation architectures (e.g., Triton offsets vs. JAX arrays)."
+  },
+  {
+    "project": "Solana Lending Pool",
+    "category": "Project",
+    "tech_stack": ["Rust", "Anchor", "Pyth Oracle"],
+    "key_achievement": "EVM-to-SVM protocol porting. Implemented full lending logic on Solana's account model with real-time solvency checks.",
+    "challenge": "Managing global state transitions without inheritance or standard OpenZeppelin-like libraries."
+  },
+  {
+    "project": "Interest Rate & Liquidity Risk Simulation (A3C Tradebot)",
+    "category": "Project",
+    "tech_stack": ["Python", "Reinforcement Learning", "TensorFlow", "Aave Protocol"],
+    "key_achievement": "Designed a multi-threaded A3C engine to optimize capital efficiency and automate position management based on Health Factor.",
+    "challenge": "Modeling high-fidelity lending dynamics against extreme historical market volatility."
+  },
+  {
+    "project": "Particle-Mint (Atomic Passkey Minting)",
+    "category": "Project",
+    "tech_stack": ["Next.js", "TypeScript", "Account Abstraction", "Particle Auth"],
+    "key_achievement": "Refactored multi-step cNFT minting into an atomic transaction. Enabled zero-friction Web2.5 onboarding via Passkey.",
+    "challenge": "Eliminating multi-signature friction and solving SDK request conflicts during one-click minting."
+  },
+  {
+    "project": "MCP Agentic Monorepo",
+    "category": "Project",
+    "tech_stack": ["FastMCP", "Python", "Solana.py", "Pandas"],
+    "key_achievement": "Built modular AI servers connecting private data and blockchain RPCs via Model Context Protocol.",
+    "challenge": "Designing secure execution environments for LLM-driven data and chain analysis."
+  },
+  {
+    "project": "MedGemma (Local Medical RAG)",
+    "category": "Project",
+    "tech_stack": ["llama.cpp", "LangGraph", "ChromaDB", "Gemma 3"],
+    "key_achievement": "Privacy-first medical triage agent with 4-bit quantization, running fully on local Metal-accelerated hardware.",
+    "challenge": "Mitigating hallucinations in high-stakes triage scenarios using local RAG pipelines."
+  },
+  {
+    "project": "BuidlGuidl CTF: Count My Assembly",
+    "category": "Project",
+    "tech_stack": ["Yul", "Inline Assembly", "EVM Opcodes", "Foundry"],
+    "key_achievement": "Solved high-difficulty EVM challenge by optimizing contract logic at the assembly level to meet strict gas and bytecode constraints.",
+    "challenge": "Direct stack manipulation and manual memory management without Solidity's high-level abstractions."
+  },
+  {
+    "project": "Zero-Knowledge Privacy Voting System",
+    "category": "Project",
+    "tech_stack": ["Noir", "UltraPlonk", "Hardhat", "TypeScript"],
+    "key_achievement": "Developed off-chain proof generation with on-chain verification for anonymous governance, part of the BuidlGuidl series.",
+    "challenge": "Optimizing ZK circuit constraints and managing private/public witness state."
+  },
+  {
+    "project": "Legion Bounty: C4 Security Audit",
+    "category": "Project",
+    "tech_stack": ["Solidity", "Foundry", "Merkle Proofs", "Manual Audit"],
+    "key_achievement": "Discovered a critical 'Merkle Binding Attack' in the reward distribution logic, preventing potential fund drains through cryptographic proof manipulation.",
+    "challenge": "Navigating complex Merkle tree implementations and cross-contract state interactions to detect deep logic flaws."
+  }
+]
