@@ -16,7 +16,7 @@
   {
     "project": "Solana Lending Pool",
     "category": "Project",
-    "tech_stack": ["Rust", "Anchor", "Pyth Oracle"],
+    "tech_stack": ["Rust", "Anchor", "Solana Oracle"],
     "key_achievement": "EVM-to-SVM protocol porting. Implemented full lending logic on Solana's account model with real-time solvency checks.",
     "challenge": "Managing global state transitions without inheritance or standard OpenZeppelin-like libraries."
   },
